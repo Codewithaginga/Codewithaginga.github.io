@@ -128,3 +128,8 @@ p{
 .img1 p{
     padding-bottom: 20px;
 }
+
+.table1{
+    display: flex;
+    flex-wrap: wrap;
+}
