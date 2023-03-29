@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/images/coins-1.jpeg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.icon{
+    width: 70px;
+    margin: 30px;
+}
+
+
+nav{
+    display: flex;
+    float: right;
+    margin: 40px 70px 0 0 ;
+    gap: 30px;
+}
+
+.signup{
+    padding: 10px 20px;
+    background: orangered;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.sigin{
+    padding: 10px 20px;
+    background: orange;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.signup:visited, .sigin:visited{
+    background: green;
+    color: white;
+}
+
+.signup:hover{
+    background: orange;
+}
+.sigin:hover{
+    background: orangered;
+}
+
+.section-1{
+    margin: 140px auto;
+    transform: translate(30%,50%);
+}
+.section-1 h1{
+    color: orangered;
+    font-size: 55px;
+    text-align:left;
+}
+
+.con{
+    padding: 10px 20px;
+    width: 400px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    
+}
+
+/*------------section 2 -------------*/
+
+.container-1{
+    background: orangered;
+    height: 80vh;
+}
+
+.section-2{
+    display: flex;
+    gap: 50px;
+    width: 80%;
+    margin-left: 100px;
+}
+
+.section-2 img{
+   margin-top: 30px;
+   width: 300px;
+   height: 400px;
+   object-fit: cover;
+   border-radius: 3px;
+}
+
+.section-2 h3{
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .icon{
+        width: 50px;
+        margin: 30px;
+    }
+    .section-1{
+        display:block;
+        transform: translate(10%,50%);
+    }
+
+    .con{
+        padding: 10px 20px;
+        width: 200px;
+        outline: none;
+        border: none;
+        border-radius: 2px;
+        
+    }
+
+    .section-1 h1{
+        font-size: 20px;
+    }
+   .section-2{
+    display: block;
+    margin: auto;
+   }
+
+   .section-2 img{
+    height: 300px;
+   }
+
+   
+
+}
